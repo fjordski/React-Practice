@@ -63,7 +63,6 @@ class Product extends React.Component {
       this.handleUpVote = this.handleUpVote.bind(this);
     }
 
-  // Inside `Product`
   handleUpVote() {
     this.props.onVote(this.props.id);
   }
